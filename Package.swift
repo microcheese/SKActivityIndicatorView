@@ -4,7 +4,7 @@ import PackageDescription
 
 let package =   Package(
   name: "SKActivityIndicatorView",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v9)],
   products: [
     .library(name: "SKActivityIndicatorView", targets: ["SKActivityIndicatorView"]),
   ],
